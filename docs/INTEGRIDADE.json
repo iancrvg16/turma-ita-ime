@@ -1,0 +1,437 @@
+{
+  "verifiedAt": "2026-11-07T20:24:48.686Z",
+  "method": "SHA-256 dos arquivos entregues comparado com a fonte e o build validados; teste HTTP e navegador no diretório final.",
+  "comparedFiles": 106,
+  "mismatches": [],
+  "httpRoutes": 9,
+  "assetsChecked": 31,
+  "notFoundStatus": 404,
+  "browserSmoke": "passed",
+  "consoleErrors": [],
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "a1f6603f2405c6f4e1584b2b3e336edcf37977397b4372f4f0b363ae7ba5a2d2"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "a9a06668c702d84c51eb60a643fe58ea5093683484907b7703f97710c07925ee"
+    },
+    {
+      "path": "index.html",
+      "sha256": "7a75d9e90d0e2672dd486ae6f0b6fe601b8292198092c93689e3c616d842e23b"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "d04d1b27160278aa1a1655473d8928a242af6bd8702f4f4d8d919d0eddee77f8"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "34b8ab838ae9c585c100869b3530f18477b926d2e70443fa4406a8b717e9ab93"
+    },
+    {
+      "path": "eslint.config.js",
+      "sha256": "d1ab60d1659ee965665fbe40ef607cd43cefef4f9f980c60d65a6fb1285fc2a4"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "fd80dce52e85749f36b7baac2b1da1bc02550272fc7248c2e4fabeb0bd707b5c"
+    },
+    {
+      "path": "vercel.json",
+      "sha256": "b7d517e119514e273cddd3c0f5090b4f4ede0bd3e8e844e9a8bb7c6ea46d901b"
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "92bc76807b2f2c249f23a3d3c9a9a78e130df5cf713a876c082077da43ed10e4"
+    },
+    {
+      "path": ".prettierignore",
+      "sha256": "3a944c8208ad4cd20b55f1c62f6c9d9cc1a8e6ff2174c4ab1f6268d688589921"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d461d0cc754b31c0299d575e10fc29f35d69290be13d13d09c787de2e10a2c3d"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "2c969cec3721f364adf68c30cdf4719a8ecc9d0148a32a9f9b2ad5658fda8251"
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "start-local.ps1",
+      "sha256": "648605715abbb63a2d87578c19674a6bf8c342ec7a2aa66866979d5a83ab9ccc"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c222b9f4f3eb426c650c3d2c69340753056dd24946e0b017f64e1826a466b996"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "0cdd259e06b841fdaa53598600b4f3deb155ee73d26f6688d9ea063a2d678180"
+    },
+    {
+      "path": "src/components/AeroDiagram.tsx",
+      "sha256": "d30eb1e64fc87b521c52f5f3886d892ac4f7e89f41e4c2655837d26e0ff686d7"
+    },
+    {
+      "path": "src/components/Artwork.tsx",
+      "sha256": "751b763720cbff90880423b8ed65b37307c658c998ad5a7470c5a085c4d6a827"
+    },
+    {
+      "path": "src/components/Brand.tsx",
+      "sha256": "270024d0d7078709e92115b5b3a1afdb5dadf11eae0e8950104fe05903bd81f3"
+    },
+    {
+      "path": "src/components/ErrorBoundary.tsx",
+      "sha256": "951b1f01194c88902b90def43aeb62fe092aa97b42a57d8295ddd921fa5ccb61"
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "sha256": "0c9233fc20958841b6781431c446eed8ce0e82ed966a9f81893489654438946d"
+    },
+    {
+      "path": "src/components/interactive/KnowledgeLab.tsx",
+      "sha256": "b85bb215db71eb13648e87a79e9732b9739a2c2d1fea2303c04503c2f6f9be64"
+    },
+    {
+      "path": "src/components/interactive/SchoolCompare.tsx",
+      "sha256": "3b9d3bec5bf4bfab36944a59a3bec03e51218598a9b9de235e28bb300e5a9926"
+    },
+    {
+      "path": "src/components/interactive/SubjectExplorer.tsx",
+      "sha256": "57b6b468d61be4884b8ecf1549aadf9c2298e3e723f364fe407515df2656624c"
+    },
+    {
+      "path": "src/components/interactive/Tabs.tsx",
+      "sha256": "e4ee01ddf067404955cab1b2cdc5a2a3da4cea9e82b234b1e731122921361b7d"
+    },
+    {
+      "path": "src/components/interactive/Timeline.tsx",
+      "sha256": "c69e83f7df629a53cca2b6263a86b517ee5c05c1debc074f46757c50dd2ebfcf"
+    },
+    {
+      "path": "src/components/JoinBanner.tsx",
+      "sha256": "a9d1670cc23a39e13b5b2f4dc54d8be5de44175edd778ea5706f0fbc0f5f7543"
+    },
+    {
+      "path": "src/components/layout/Layout.tsx",
+      "sha256": "bf79a92a69ad0b2d489e3f9060b84defd6eaf6c86eae6565bc121cdef00d7d7d"
+    },
+    {
+      "path": "src/components/PageIntro.tsx",
+      "sha256": "1ecea0948816edd499e30a23837a0ada91488fcf7e68f9e78184bd3d712f9bda"
+    },
+    {
+      "path": "src/components/Reveal.tsx",
+      "sha256": "89f9a512e8112b04ac8b798d454034506426642384c9e61cfe74e6fac0427244"
+    },
+    {
+      "path": "src/components/TeamCard.tsx",
+      "sha256": "57bc6f7b35957135e3a68df8c2588e19b7f0efaf214fd78313f93f026ad125ba"
+    },
+    {
+      "path": "src/config/site.ts",
+      "sha256": "d9987d7db312948a8b27b2d4fb1d3140d9158da3fd72e5e04265974c9564ac78"
+    },
+    {
+      "path": "src/data/content.ts",
+      "sha256": "e6b17d0f9625af1e9ccb3c8887a45a4d1fecb4ab75de52b6bac1a761a3ae75c8"
+    },
+    {
+      "path": "src/data/institutions.ts",
+      "sha256": "6aef21204fc4d3cbd34227a729f29f73f6cff214f9efa7b35195c3d82bebc63b"
+    },
+    {
+      "path": "src/data/routes.ts",
+      "sha256": "8fb3ce878a1e5170ee8246f2f616ce312598eb7010415271c8b3730bf46ed1fb"
+    },
+    {
+      "path": "src/data/subjects.ts",
+      "sha256": "fd409b15b4ee76f2f9872e729bbe848d63ec533d3f5db533edf0091906859990"
+    },
+    {
+      "path": "src/data/team.ts",
+      "sha256": "dc88335cac2354d82efaa573b86f70800bc4622f1a633fc30d04b4b7c5bb89df"
+    },
+    {
+      "path": "src/entry-server.tsx",
+      "sha256": "b133e1bab523d6a3bc21705561b358f69ae314a15c5968762b14ff5723a3001e"
+    },
+    {
+      "path": "src/lib/science.ts",
+      "sha256": "623a43aa969e3b225cdcab722f6f7a257d2eb76d1e158d2e0f1b83753ab02166"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "dbe4a8f960ad5cd98c12ab3b851624d13f69ae54653fbe7c0deaec1ca5e62c05"
+    },
+    {
+      "path": "src/pages/About.tsx",
+      "sha256": "ac8b2c45d44a4af17e5a8a9e58a12c299ef5b1ee9e31e3b52207ef110b6eba24"
+    },
+    {
+      "path": "src/pages/Contact.tsx",
+      "sha256": "2155a8b79dc2923b06b65b28d7e5b40d74bceeb3aa7d4033660f2b32db2c395b"
+    },
+    {
+      "path": "src/pages/Home.tsx",
+      "sha256": "ba170fdc6f684953bb234916febbd53477b1e1c054d26f649392646bf747087f"
+    },
+    {
+      "path": "src/pages/Institution.tsx",
+      "sha256": "ece19f286de755e242c5b96e771fcf5090be22546732b105f0a212b2e124e936"
+    },
+    {
+      "path": "src/pages/Lab.tsx",
+      "sha256": "8b8ff6acc0ef913e3ee6e8397f08bc01d5fd2b1afff9cf268e6983d0e12e986d"
+    },
+    {
+      "path": "src/pages/NotFound.tsx",
+      "sha256": "c2733e4cedc91eaa66575e4319d382626f5aaa2f7cc1e4a5c236d70b3b51e970"
+    },
+    {
+      "path": "src/pages/Pirambu.tsx",
+      "sha256": "d1f61353975667b611099e04a4dc2c9935299db31192dc2149e592039ba424b5"
+    },
+    {
+      "path": "src/pages/Subjects.tsx",
+      "sha256": "2d9ce02cd9fde59af74b764f125260b6b0ef7f5cc75d569294cfcce36686b757"
+    },
+    {
+      "path": "src/pages/Team.tsx",
+      "sha256": "ae93b3c613c192717cfa2c1a11ca6f016af5477d8b390caa036a2b5c9fa0874b"
+    },
+    {
+      "path": "src/styles/index.css",
+      "sha256": "555852db726b2871a7863969f2f9cf11200c8a2dcd07c533bda147dc00034ff0"
+    },
+    {
+      "path": "public/assets/licenses/dm-sans.txt",
+      "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7"
+    },
+    {
+      "path": "public/assets/licenses/ibm-plex-mono.txt",
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "public/assets/licenses/space-grotesk.txt",
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "public/assets/social.png",
+      "sha256": "9ee4fb3dac492fdba2071f205ccb8ca51bb81feec5be384f7f3f569288eca3f7"
+    },
+    {
+      "path": "public/assets/social.svg",
+      "sha256": "4040852c771269e5371b1545a2a1d0bb14d838479d5a68fd653f44f67ef9c206"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "1399535c3fb1bb5de3a6e6c2e0eeec42a677d1b287d9d32576fbba3ff10abe0c"
+    },
+    {
+      "path": "scripts/measure-performance.mjs",
+      "sha256": "9c79f7490b90ab8be8d01ed26d684dcd862797de684ac299f258cc0290610ffd"
+    },
+    {
+      "path": "scripts/prerender.mjs",
+      "sha256": "3e2ceb0a59ce1a57fb0194f4430923d7518dd4df6560b747da162e60bcb607d6"
+    },
+    {
+      "path": "scripts/serve-production.mjs",
+      "sha256": "e061ccc5a2eb87ba9d40efa12f8471b30b55e253b06b9b0bab2ba181e512f428"
+    },
+    {
+      "path": "scripts/visual-assets.mjs",
+      "sha256": "8884ccab63b1309a50e76adc9b810c9fba19429b23d1f8b1954435920d438b6e"
+    },
+    {
+      "path": "tests/science.test.mjs",
+      "sha256": "73fd209c8414e631197e37105d9535c2d9d54f49a719f8c0bada0694ec07988b"
+    },
+    {
+      "path": "tests/site.spec.ts",
+      "sha256": "bebc410d0565f6453f9484078cc75b250b2c0b8cfa8ae31a9c68d558f2c84950"
+    },
+    {
+      "path": "dist/404.html",
+      "sha256": "44b82c4dd6c16af6f12ebcf77f03690749c03ebf1ee8a73e3a4d2a6ce24c2cbe"
+    },
+    {
+      "path": "dist/assets/About-BbLWzRDP.js",
+      "sha256": "3fb05b6ab0e0b7ef43b1d0d70f672b2ea6e0deb1b2c208a50e452a4fc3464250"
+    },
+    {
+      "path": "dist/assets/Contact-C23AJQ8T.js",
+      "sha256": "395366fe3de5896f8ecb5c221c9b2fa399e3a87f7c0a8cbc1c79b353bbbdb7c7"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-400-normal-BwCSEQnW.woff",
+      "sha256": "38702875fe179437d200e7ba6f7fab4d497ffe48117ef332029b2081751186ad"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-500-normal-B9HHJjqV.woff2",
+      "sha256": "19bf1984956517c35c2bd35b6cdedac12a21d6fcd3596c614ecdfb88b648909d"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-500-normal-Dr3UlScf.woff",
+      "sha256": "7deb957e430b780ee3272d801af4f9f2211b1330ec40a312a8f25309eacb4034"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-600-normal-Aqo67rzb.woff2",
+      "sha256": "6bb2b2645ba5eeaecf56322c543fa3a75b87b927977b9c03b1dabc4205089120"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-600-normal-BmdmIIQ2.woff",
+      "sha256": "e7351257e49400eff05aca30a2007289194a900860d30c30770d8b8732897564"
+    },
+    {
+      "path": "dist/assets/ibm-plex-mono-latin-400-normal-CvHOgSBP.woff",
+      "sha256": "328d50b6ece9ca25c46eea3e885ba497f6237f2fb84ef7b92f88e14a1a25e381"
+    },
+    {
+      "path": "dist/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "dist/assets/Icon-DlIXf6Xu.js",
+      "sha256": "29676a520b0786ec7542b34cc48cb4b9a808f235914f653bb175a8db0d6cb14c"
+    },
+    {
+      "path": "dist/assets/index-BAr_BCa3.js",
+      "sha256": "6bdabe99456e8fdf1bec34c7844ba2df81740feb5370666673b73618b4add82d"
+    },
+    {
+      "path": "dist/assets/index-DoT_iXf0.css",
+      "sha256": "8510390a05646b176eea6d6cdf3f675ce9c31683d24de15e36c2c25cd060013b"
+    },
+    {
+      "path": "dist/assets/Institution-CZ787TA9.js",
+      "sha256": "f74d6f35b50a9a0f9753bbe2da189369577dffd8c4cfec884f91cf6bfc61e74c"
+    },
+    {
+      "path": "dist/assets/Lab-IH-r4eIH.js",
+      "sha256": "7bce92d329f2e8044cc854ddaf32384f470178ae54c1d3f15831d7022abcfb7e"
+    },
+    {
+      "path": "dist/assets/licenses/dm-sans.txt",
+      "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7"
+    },
+    {
+      "path": "dist/assets/licenses/ibm-plex-mono.txt",
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "dist/assets/licenses/space-grotesk.txt",
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "dist/assets/PageIntro-BnIa5MHA.js",
+      "sha256": "fbd4e070fc750d74daaa2e7764d3b45398da35169549b0ec1b9f32120c600e7d"
+    },
+    {
+      "path": "dist/assets/Pirambu-B_TuHD5y.js",
+      "sha256": "3cd0da003944ada811fe3aa1013051ede5f9791cdbb876e236462f461a62e118"
+    },
+    {
+      "path": "dist/assets/social.png",
+      "sha256": "9ee4fb3dac492fdba2071f205ccb8ca51bb81feec5be384f7f3f569288eca3f7"
+    },
+    {
+      "path": "dist/assets/social.svg",
+      "sha256": "4040852c771269e5371b1545a2a1d0bb14d838479d5a68fd653f44f67ef9c206"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-500-normal-CNSSEhBt.woff",
+      "sha256": "aa3f2941f6db6ca253c9f55bb173e1a1ade690dcc50e501119814a4414027df3"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+      "sha256": "1b1a8131d9edf975d9decee81e2f2bf504812f7a4f498e5500f28a613e22e64c"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-600-normal-BflQw4A9.woff",
+      "sha256": "1c7ffb357cef0950935783c5a50e140e092f05c814da5b196e67a64e69cb2991"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-600-normal-DjKNqYRj.woff2",
+      "sha256": "685bbbf69fa616df1ef81847c85fc76be097ddfb3468ff2257be54511ab3130f"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-700-normal-CwsQ-cCU.woff",
+      "sha256": "145016049aa47932e2d116f70151edc5a53df894cb367514c52ea2d11289bee7"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55"
+    },
+    {
+      "path": "dist/assets/Subjects-CFMIUXmE.js",
+      "sha256": "12e839a8b12f495976c34d5334975a38fa68d4e9d32e7672b14c6139a5e25b19"
+    },
+    {
+      "path": "dist/assets/team-D6oW3be8.js",
+      "sha256": "cbadada5452fe3b126b23638c29cf533b19f1737913a409ee74f02d17ffc4185"
+    },
+    {
+      "path": "dist/assets/Team-DlChMqFv.js",
+      "sha256": "03c09c81f9300c9378d9fc3cb713a293f1a93ce09bbde8a68c163960361ef9cf"
+    },
+    {
+      "path": "dist/disciplinas.html",
+      "sha256": "f01baa9c5bd8a096c2efcf7dba9697394fa88352e5557a2d5189a1a98f760bc2"
+    },
+    {
+      "path": "dist/equipe.html",
+      "sha256": "d6d09d7ba5531db6899970bedeb2ba6a32439ba91d1cdc1a1823a9a821827703"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "sha256": "1399535c3fb1bb5de3a6e6c2e0eeec42a677d1b287d9d32576fbba3ff10abe0c"
+    },
+    {
+      "path": "dist/ime.html",
+      "sha256": "25a3bb0d4c6805ca13250e63935f9388798794525e736dd0d558b2c54a38fd40"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "3210889e7171fcf71bc7d33926714a355855eb23657fee223ef7ecb9a71bf842"
+    },
+    {
+      "path": "dist/ita.html",
+      "sha256": "45b0d5aff1cc7be5f7a8c9a317184c080c822e1c5e45f05075fa6f90fbd7172d"
+    },
+    {
+      "path": "dist/laboratorio.html",
+      "sha256": "330b148f8b157460e5e356facd0d40ed73b9b6dddbe7db3223d68055d64f3c6e"
+    },
+    {
+      "path": "dist/nossa-turma.html",
+      "sha256": "8c7bf30a8f4a66c26cf4201c4ca27af6d8d5ccb87f507a5a43717051e0b0d75d"
+    },
+    {
+      "path": "dist/participe.html",
+      "sha256": "4301bdacdf5eefa73d5b8cd0bbb7e32d2309a42ea741a5a605ad6021f175a348"
+    },
+    {
+      "path": "dist/pirambu-innovation.html",
+      "sha256": "586990e1670d54a6b22a6e02ed610cfeb20470e53f02289a36f44ae7cacbe168"
+    },
+    {
+      "path": "dist/robots.txt",
+      "sha256": "ef0bbb987f1b7e4c9e654e8870e37fc94f84c24b947b69c2859734a176835b2d"
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "sha256": "1214c52cace28c40b45da48b46ef96fe9ad1bb0584cde1ba6f66c9a70a5ed5df"
+    }
+  ]
+}

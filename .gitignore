@@ -1,0 +1,53 @@
+node_modules/
+dist/
+dist-ssr/
+build/
+.tools/
+.cache/
+.vercel/
+.turbo/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.env
+.env.*
+!.env.example
+*.local
+*.tsbuildinfo
+*.log
+logs/
+
+# Pacotes de entrega e cópias locais
+*.zip
+*.zip.sha256
+*.tar
+*.tar.gz
+*.bak
+*.backup
+
+# Configurações e credenciais locais
+.agents/
+.codex/
+.aws/
+.ssh/
+.credentials/
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Documentos internos e anexos privados
+internal/
+private/
+attachments/
+docs/internal/
+docs/private/
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

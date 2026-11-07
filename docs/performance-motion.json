@@ -1,0 +1,38 @@
+{
+  "measuredAt": "2026-11-07T20:13:53.229Z",
+  "browser": "156.0.8078.80",
+  "environment": "Chrome headless no Windows; localhost; cache desativado; uma amostra por perfil; movimento: no-preference",
+  "limitations": "Medição de laboratório, não dados de campo. Não equivale ao percentil 75 de usuários reais. INP não foi medido. A rede e a CPU simuladas não reproduzem todas as condições de um celular.",
+  "measurements": [
+    {
+      "name": "desktop-local",
+      "width": 1440,
+      "height": 900,
+      "cpu": 1,
+      "latency": 0,
+      "download": -1,
+      "upload": -1,
+      "lcp": 440,
+      "cls": 0.0006594114368998628,
+      "resources": 10,
+      "transferBytes": 438495,
+      "domContentLoaded": 298.80000000074506,
+      "inp": null
+    },
+    {
+      "name": "mobile-simulado",
+      "width": 390,
+      "height": 844,
+      "cpu": 4,
+      "latency": 150,
+      "download": 200000,
+      "upload": 93750,
+      "lcp": 1904,
+      "cls": 0,
+      "resources": 10,
+      "transferBytes": 438495,
+      "domContentLoaded": 2665.599999997765,
+      "inp": null
+    }
+  ]
+}
